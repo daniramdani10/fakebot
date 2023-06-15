@@ -1,0 +1,38 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+}
+
+.container {
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.wrapper {
+    /* border: 1px black solid; */
+}
+
+#jawaban {
+    padding: 8px;
+}
+
+#pertanyaan {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+button {
+    padding: 8px;
+    background-color: mediumseagreen;
+    color: #eaeaea;
+    font-weight: 800;
+}
